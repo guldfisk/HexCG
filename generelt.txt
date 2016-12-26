@@ -1,0 +1,54 @@
+-Actions system
+Priority?
+Parallele ture?
+Programmering?
+Unit aktivering, hvordan?
+Clicks?
+Action per unit?
+Unit intiativ value ala fucking homm v?
+Primært problem ligger i hvordan noget turbaseret fungere sammen med ukomplet information baseret på brikkers position. Kan brikker rykkes et felt ad gangen, så man kan bestemme hvad den gør, baseret på hvad der sker? Gameplay messigt er det ok sick, men det bliver hurtigt stenet at skulle rykke hver enkelt enhed et felt ad gangen, især hvis der er slight edges at opnå gennem svært gennemskuelige små forskelle.	
+
+-Line of sight
+Units har line of sight.
+Directional?
+Kan der angribes felter, eller kun ting der kan ses?
+Hvilken information er spillere givet om deres modstandere, og hvordan har det indflydelse på den information spilleren for fra spillepladen?
+f.eks.: Spillere kender størrelsen af hinandens hænder. I det modstanderens håndstørrelse reduceres med en, for den anden spiller information om, at de har spillet et kort. Hvordan giver det mening relativt til en line of sight informations model?
+
+-Kamp
+Melee vs. ranged
+AOE vs. targeted
+Det giver ok meget mening at alle angreb er AOE (selv hvis det kun er et enkelt felt), i det man så kan få lov til at gætte hvor modspilleres enheder er, og angribe dem. Potentiel shellgame bullshit vs spicy yomi.
+Dette forsimpler også regler, relativt til om en unit bliver angrebet, i det der ikke er to semi vilkårlige forskellige typer angreb. En enhed kan så se på om den er i AOE'en, for at bestemme om den er under angreb.
+retaliation?
+honestly ikke en gang sikker på hvad fordele og ulemper er her. I guess det gør at man kan havde units der er funktionelle, uden at gøre noget hele tiden.
+Disengage er pretty spicy, hvilket også støtter op om foregående pointe.
+Type baseret adskillesse mellem melee og ranged?
+Er pretty arbitrary. Giver mulighed for bedre regler med hensyn til disengage og retaliation.
+
+-Resurcer
+Ligger på brættet vs. central pulje (eller et eller andet andet / kombination)
+Resurce udvikling over tid
+Forskellige typer resurcer?
+Kort som resurce? (netrunner <-> magic spektrum, card advantage som centrale resurce, vs kort som options)
+Resurce pr tur vs konstant pulje (magic/cardstone vs netrunner)
+
+-Kort typer
+Enheder, events, ?? (resurcer?)
+events = cardstone spell
+
+-Kort objekter
+Magic vs. cardstone
+Er kort konstante objeckter, eller spawner kort objekter og forsvinder.
+Cardstone model er meget nemmere at implementere, og giver nok mere mening til en digital platform, men har mindre design space prob.
+
+-Kaste en spell
+Hvad kaster spells?
+Spilleren? En hero figur? ??
+
+-Factions aka mana diversity
+Netrunner influence er pretty hot. Magic mana er bedre.
+Pointe er, at deck design og balance er bedre, med konstraints på hvilke kort der kan komme i deck. Magic håndtere dette på en mere naturlig måde. (Men med mere variance baseret screw)
+Influence har dog sit eget interresante design space, ala alliance.
+Andres options?
+Id'er er pretty sick, men kan være svære at balance, og potentiel unødvendig kompleksitet.
