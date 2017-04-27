@@ -1,0 +1,13 @@
+|Deck
+
+>A deck is a preconstructed set of cards used to play the game.
+
+|Each player has a deck.
+
+|A deck consists of a subset of the card pool.
+
+|A deck can contain up to four copies of a card with the same name.
+
+|A deck consists of at least 60 cards.
+
+<Other

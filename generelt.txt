@@ -7,6 +7,12 @@ Clicks?
 Action per unit?
 Unit intiativ value ala fucking homm v?
 Primært problem ligger i hvordan noget turbaseret fungere sammen med ukomplet information baseret på brikkers position. Kan brikker rykkes et felt ad gangen, så man kan bestemme hvad den gør, baseret på hvad der sker? Gameplay messigt er det ok sick, men det bliver hurtigt stenet at skulle rykke hver enkelt enhed et felt ad gangen, især hvis der er slight edges at opnå gennem svært gennemskuelige små forskelle.	
+Tror det fungere med at enheder kan rykkes et felt ad gangen, i det det meget af tiden vil være irrelevant at gøre det et ad gangen, og meget af det trivielle derfor kan undgåes, med at interface, der supporter at shortcutte flere ryk ad gangen.
+Parallele ture er meget besværlige med diskrete positioner.
+Hver spiller har derfor opdelte ture, hvori hver enhed kan foretage en handling. Cardstone modellen er dog kedelig. Magic prioritet er meget mere interresant, men også meget mere besværligt at implimentere digitalt på en god måde. Det er også uklart hvordan prioritet fungere med enheder på et bræt. Det giver ikke intuitivt mening, eller virker praktisk muligt, at hver handling kommer på en stack og resolver.
+Selv hvis det kun er få handlinger den inaktive spiller kan foretage, bliver det stadig nemt upraktisk så længe den aktive spiller har nok handlinger på en tur. Hvis inaktive respons handliner involvere at rykke på enheder, hvil det også lede til meget få f6-situationer, og generelt bare være meget beværligt.
+Der er også problemer med hidden information. Hvis noget du ikke kan se skyder på dig, hvordan giver det så mening at respondere på det?
+
 
 -Line of sight
 Units har line of sight.

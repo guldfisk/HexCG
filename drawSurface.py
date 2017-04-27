@@ -3,9 +3,9 @@ from hexGrid import *
 
 class DrawableHex(Hex):
 	def draw(self, painter, ox, oy):
-		s = ''.join(str(item)+'\n' for item in self.getBorderPositions())
+		s = ''.join(str(item)+'\n' for item in self.borderPositions)
 		rect = painter.boundingRect(QtCore.QRectF(), 0, s)
-		rect.moveCenter(QtCore.QPointF(*self.getRCCenter()*40+(ox, oy)))
+		rect.moveCenter(QtCore.QPointF(*self.rcCenter*40+(ox, oy)))
 		painter.drawText(rect, s)
 
 class DrawSurface(QtWidgets.QWidget):
